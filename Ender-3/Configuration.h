@@ -501,7 +501,7 @@
   #else
     //PID autotune - HeroMe Gen4
     #define DEFAULT_Kp 50.38
-    #define DEFAULT_Ki 8.31
+    #define DEFAULT_Ki  8.31
     #define DEFAULT_Kd 76.34
   #endif
 #endif // PIDTEMP
@@ -540,8 +540,8 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //PID autotune 50°C
-  #define DEFAULT_bedKp 42.28
-  #define DEFAULT_bedKi 5.28
+  #define DEFAULT_bedKp  42.28
+  #define DEFAULT_bedKi   5.28
   #define DEFAULT_bedKd 225.74
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
@@ -1476,7 +1476,7 @@
 #define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
 #if ENABLED(EEPROM_SETTINGS)
-  #define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors.
+  #define EEPROM_AUTO_INIT    // Init EEPROM automatically on any errors.
 #endif
 
 //
@@ -1636,7 +1636,7 @@
  *
  * View the current statistics with M78.
  */
-//#define PRINTCOUNTER
+#define PRINTCOUNTER
 
 /**
  * Password
