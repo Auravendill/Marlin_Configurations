@@ -735,7 +735,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 2560, 99 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 99 }//new T8 lead screws
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1775,7 +1775,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION//new encoder (salvaged from a similar but broken display)
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
