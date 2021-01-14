@@ -7,7 +7,7 @@ My modified Ender-3:
 - Creality Ultrabase glass bed
 
 My second modified Ender-3:
-- SKR Mini E3-DIP v1.1 with TMC2208 (default_envs = STM32F103RC_btt_USB)
+- SKR Mini E3-DIP v1.1 with TMC2208 (default_envs = STM32F103RC_btt)
 - 3D printed replacement extruder
 - Ultrabase clone
 - Microswiss clone
