@@ -493,10 +493,10 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    //PID autotune new thermistor
-    #define DEFAULT_Kp 47.63
-    #define DEFAULT_Ki  9.23
-    #define DEFAULT_Kd 61.45
+    //PID autotune - MK2S Extruder
+    #define DEFAULT_Kp 44.47
+    #define DEFAULT_Ki 6.70
+    #define DEFAULT_Kd 73.77
   #endif
 #endif // PIDTEMP
 
