@@ -535,10 +535,10 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  //PID autotune
-  #define DEFAULT_bedKp 10.00
-  #define DEFAULT_bedKi .023
-  #define DEFAULT_bedKd 305.4
+  //PID autotune 50°C
+  #define DEFAULT_bedKp 37.85
+  #define DEFAULT_bedKi 7.38
+  #define DEFAULT_bedKd 129.46
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
 
