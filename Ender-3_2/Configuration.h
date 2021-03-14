@@ -495,7 +495,7 @@
     #define DEFAULT_Ki_LIST {   2.55,   2.55 }
     #define DEFAULT_Kd_LIST {  59.91,  59.91 }
   #else
-    #PID autotune with Hydra and Microswiss
+    //PID autotune with Hydra and Microswiss
     #define DEFAULT_Kp 17.10
     #define DEFAULT_Ki 1.17
     #define DEFAULT_Kd 62.70
