@@ -87,7 +87,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD MOTHERBOARD BOARD_BTT_SKR_E3_DIP
+  #define MOTHERBOARD BOARD_BTT_SKR_E3_DIP
 #endif
 
 /**
