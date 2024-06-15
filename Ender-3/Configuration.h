@@ -35,7 +35,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 02010202
+#define CONFIGURATION_H_VERSION 02010203
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -1197,7 +1197,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 800, 391.6 }//{ 80, 80, 400, 93 }//TODO?
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 800, 1631.7 }//{ 80, 80, 400, 93 }//TODO?
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
